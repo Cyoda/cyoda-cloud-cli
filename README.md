@@ -11,11 +11,11 @@
 
 This repository will host the command-line client for
 [Cyoda Cloud](https://cyoda.com/cloud) — the managed service for running
-systems built on [`cyoda-go`](https://github.com/Cyoda-platform/cyoda-go).
+systems built on [`cyoda-go`](https://github.com/Cyoda/cyoda-go).
 
 ## What is Cyoda Cloud?
 
-[`cyoda-go`](https://github.com/Cyoda-platform/cyoda-go) is an Apache-2.0
+[`cyoda-go`](https://github.com/Cyoda/cyoda-go) is an Apache-2.0
 **entity database** (EDBMS): every entity carries a lifecycle state machine,
 full revision history, and transactional integrity — so applications built on
 it have an immutable, point-in-time-queryable audit trail *by construction*.
@@ -31,7 +31,7 @@ workflow configuration, and compute-node code carry over without
 modification.
 
 For the engine itself, see the
-[`cyoda-go`](https://github.com/Cyoda-platform/cyoda-go) reference
+[`cyoda-go`](https://github.com/Cyoda/cyoda-go) reference
 documentation and <https://docs.cyoda.net>.
 
 ### Tiers
@@ -73,12 +73,12 @@ skeleton while the new Cyoda Cloud control plane takes shape.
 
 An earlier working prototype (built against a previous control-plane API) is
 preserved at the branch
-[`legacy/manager-cli`](https://github.com/Cyoda-platform/cyoda-cloud-cli/tree/legacy/manager-cli)
+[`legacy/manager-cli`](https://github.com/Cyoda/cyoda-cloud-cli/tree/legacy/manager-cli)
 and the tag `pre-redesign`.
 
 ## Links
 
-- `cyoda-go` (the OSS engine): <https://github.com/Cyoda-platform/cyoda-go>
+- `cyoda-go` (the OSS engine): <https://github.com/Cyoda/cyoda-go>
 - Documentation: <https://docs.cyoda.net>
 - Cyoda: <https://cyoda.com>
 - Waitlist: <https://cyoda.com/cloud>
